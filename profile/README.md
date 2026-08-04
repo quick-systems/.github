@@ -62,13 +62,19 @@ custody risk. You are the merchant of record for your own sales.
 
 ## Open source
 
+Everything we build is open source. Both products, the plugin, the bot and the
+themes all live here in full.
+
 | Repo | What it is |
 |---|---|
 | [**quickshop**](https://github.com/quick-systems/quickshop) | The quickshop web app: storefronts, dashboard, and the delivery API the plugin talks to. |
+| [**minecraft-plugin**](https://github.com/quick-systems/minecraft-plugin) | The in game half of quickshop. Polls the delivery API and runs the purchase commands on your server, proxy networks included. |
 | [**quickshop-themes**](https://github.com/quick-systems/quickshop-themes) | Community CSS themes for storefronts. A theme is just CSS overriding a documented set of custom properties. See [SPEC.md](https://github.com/quick-systems/quickshop-themes/blob/main/SPEC.md), then open a PR. |
+| [**quickpay**](https://github.com/quick-systems/quickpay) | The quickpay web app: Stripe Connect onboarding, hosted checkout, seller dashboard and outgoing webhooks. |
+| [**quickpay-bot**](https://github.com/quick-systems/quickpay-bot) | The Discord half of quickpay. discord.js v14 with Components V2, handling `/buy`, role grants and buyer DMs. |
 
-Everything else in this organisation is closed source. If a repo 404s for you,
-that is why rather than a broken link.
+A repo may still 404 while it is being prepared for release. It gets opened as
+soon as it is ready, not before.
 
 ## Contributing a theme
 
